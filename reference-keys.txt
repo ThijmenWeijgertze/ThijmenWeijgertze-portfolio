@@ -1,0 +1,6 @@
+index-pagina
+thijmen-weijgertze-datascience-cv
+about-me
+my-education
+my-most-relevant-skills-related-to-datascience-alphabetical-order
+contact-info
