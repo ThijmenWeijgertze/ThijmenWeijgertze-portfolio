@@ -1,4 +1,6 @@
-index-pagina
+main-page
+introduction
+contact-information
 thijmen-weijgertze-datascience-cv
 about-me
 my-education

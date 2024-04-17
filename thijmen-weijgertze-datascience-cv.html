@@ -77,7 +77,13 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Index pagina</a></li>
+<li class="toc"><h2>Table of Contents</h2></li>
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Main page</a>
+<ul>
+<li class="chapter" data-level="1.0.1" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i><b>1.0.1</b> Introduction</a></li>
+<li class="chapter" data-level="1.0.2" data-path="index.html"><a href="index.html#contact-information"><i class="fa fa-check"></i><b>1.0.2</b> Contact information</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="thijmen-weijgertze-datascience-cv.html"><a href="thijmen-weijgertze-datascience-cv.html"><i class="fa fa-check"></i><b>2</b> Thijmen Weijgertze DataScience CV</a>
 <ul>
 <li class="chapter" data-level="2.0.1" data-path="thijmen-weijgertze-datascience-cv.html"><a href="thijmen-weijgertze-datascience-cv.html#about-me"><i class="fa fa-check"></i><b>2.0.1</b> About me</a></li>
@@ -110,8 +116,8 @@
 </div>
 <div id="my-education" class="section level3" number="2.0.2">
 <h3><span class="header-section-number">2.0.2</span> My education</h3>
-<div class="reactable html-widget html-fill-item" id="htmlwidget-741d513bdbf0425099a6" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-741d513bdbf0425099a6">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Degree":["Havo (N&T and N&G)","Life Science"],"Year":["2020","3rd year"],"Institution":["Marnix College","HU University of Applied Sciences Utrecht"],"Where":["Ede, Gelderland","Utrecht, Utrecht"]},"columns":[{"id":"Degree","name":"Degree","type":"character"},{"id":"Year","name":"Year","type":"character"},{"id":"Institution","name":"Institution","type":"character"},{"id":"Where","name":"Where","type":"character"}],"dataKey":"5bc4ba73cc9e3fd7d36393d7d9821261"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-567e6cdddc079f5bfa04" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-567e6cdddc079f5bfa04">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Degree":["Havo (N&T and N&G)","Life Science"],"Year":["2020","3rd year"],"Institution":["Marnix College","HU University of Applied Sciences Utrecht"],"Where":["Ede, Gelderland","Utrecht, Utrecht"]},"columns":[{"id":"Degree","name":"Degree","type":"character"},{"id":"Year","name":"Year","type":"character"},{"id":"Institution","name":"Institution","type":"character"},{"id":"Where","name":"Where","type":"character"}],"dataKey":"5bc4ba73cc9e3fd7d36393d7d9821261"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="my-most-relevant-skills-related-to-datascience-alphabetical-order" class="section level3" number="2.0.3">
 <h3><span class="header-section-number">2.0.3</span> My most relevant skills related to DataScience (alphabetical order)</h3>
@@ -181,7 +187,7 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
+"github": true,
 "facebook": false,
 "twitter": false,
 "linkedin": false,
@@ -215,7 +221,8 @@ gitbook.start({
 },
 "toc": {
 "collapse": "section",
-"scroll_highlight": true
+"scroll_highlight": true,
+"toc_depth": 3
 }
 });
 });
