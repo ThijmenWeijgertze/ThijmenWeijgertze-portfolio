@@ -192,14 +192,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="reproducible-research" class="section level1" number="6">
 <h1><span class="header-section-number">6</span> Reproducible Research</h1>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="reproducible-research.html#cb23-1" tabindex="-1"></a><span class="co"># test</span></span>
-<span id="cb23-2"><a href="reproducible-research.html#cb23-2" tabindex="-1"></a><span class="fu">library</span>(here)</span>
-<span id="cb23-3"><a href="reproducible-research.html#cb23-3" tabindex="-1"></a></span>
-<span id="cb23-4"><a href="reproducible-research.html#cb23-4" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(here<span class="sc">::</span><span class="fu">here</span>(</span>
-<span id="cb23-5"><a href="reproducible-research.html#cb23-5" tabindex="-1"></a>  <span class="st">&quot;data&quot;</span>,</span>
-<span id="cb23-6"><a href="reproducible-research.html#cb23-6" tabindex="-1"></a>  <span class="st">&quot;GuerrillaAnalytics.png&quot;</span></span>
-<span id="cb23-7"><a href="reproducible-research.html#cb23-7" tabindex="-1"></a>))</span></code></pre></div>
-<p><img src="data/GuerrillaAnalytics.png" width="231" /></p>
 
 </div>
             </section>

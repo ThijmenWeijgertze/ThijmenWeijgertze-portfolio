@@ -198,8 +198,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="my-education" class="section level3" number="3.0.2">
 <h3><span class="header-section-number">3.0.2</span> My education</h3>
-<div class="reactable html-widget html-fill-item" id="htmlwidget-85032fb47257f0d7e379" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-85032fb47257f0d7e379">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Degree":["Havo (N&T and N&G)","Life Science"],"Year":["2020","3rd year"],"Institution":["Marnix College","HU University of Applied Sciences Utrecht"],"Where":["Ede, Gelderland","Utrecht, Utrecht"]},"columns":[{"id":"Degree","name":"Degree","type":"character"},{"id":"Year","name":"Year","type":"character"},{"id":"Institution","name":"Institution","type":"character"},{"id":"Where","name":"Where","type":"character"}],"dataKey":"5bc4ba73cc9e3fd7d36393d7d9821261"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-032fb47257f0d7e37966" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-032fb47257f0d7e37966">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Degree":["Havo (N&T and N&G)","Life Science"],"Year":["2020","3rd year"],"Institution":["Marnix College","HU University of Applied Sciences Utrecht"],"Where":["Ede, Gelderland","Utrecht, Utrecht"]},"columns":[{"id":"Degree","name":"Degree","type":"character"},{"id":"Year","name":"Year","type":"character"},{"id":"Institution","name":"Institution","type":"character"},{"id":"Where","name":"Where","type":"character"}],"dataKey":"5bc4ba73cc9e3fd7d36393d7d9821261"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="my-most-relevant-skills-related-to-datascience-alphabetical-order" class="section level3" number="3.0.3">
 <h3><span class="header-section-number">3.0.3</span> My most relevant skills related to DataScience (alphabetical order)</h3>

@@ -194,15 +194,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1><span class="header-section-number">4</span> Guerrilla Analytics</h1>
 <div id="example-project" class="section level3 unnumbered">
 <h3>Example Project</h3>
-<img src="data/GuerrillaAnalytics.png" class="img-responsive" alt="">
-</div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="guerrilla-analytics.html#cb1-1" tabindex="-1"></a><span class="co"># Load example image</span></span>
+<span id="cb1-2"><a href="guerrilla-analytics.html#cb1-2" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb1-3"><a href="guerrilla-analytics.html#cb1-3" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="guerrilla-analytics.html#cb1-4" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(here<span class="sc">::</span><span class="fu">here</span>(</span>
+<span id="cb1-5"><a href="guerrilla-analytics.html#cb1-5" tabindex="-1"></a>  <span class="st">&quot;data&quot;</span>,</span>
+<span id="cb1-6"><a href="guerrilla-analytics.html#cb1-6" tabindex="-1"></a>  <span class="st">&quot;GuerrillaAnalytics.png&quot;</span></span>
+<span id="cb1-7"><a href="guerrilla-analytics.html#cb1-7" tabindex="-1"></a>))</span></code></pre></div>
+<p><img src="data/GuerrillaAnalytics.png" width="231" /></p>
 </div>
 <div id="root-of-this-bookdown-project" class="section level3 unnumbered">
 <h3>Root Of This Bookdown Project</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="guerrilla-analytics.html#cb1-1" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
-<span id="cb1-2"><a href="guerrilla-analytics.html#cb1-2" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-3"><a href="guerrilla-analytics.html#cb1-3" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="guerrilla-analytics.html#cb1-4" tabindex="-1"></a><span class="fu">dir_tree</span>(<span class="st">&quot;.&quot;</span>, <span class="at">recurse =</span> <span class="cn">TRUE</span>, <span class="at">regexp =</span> <span class="st">&quot;^.gitignore$|^[^_|(.git)]&quot;</span>, <span class="at">all =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="guerrilla-analytics.html#cb2-1" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
+<span id="cb2-2"><a href="guerrilla-analytics.html#cb2-2" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb2-3"><a href="guerrilla-analytics.html#cb2-3" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="guerrilla-analytics.html#cb2-4" tabindex="-1"></a><span class="fu">dir_tree</span>(<span class="st">&quot;.&quot;</span>, <span class="at">recurse =</span> <span class="cn">TRUE</span>, <span class="at">regexp =</span> <span class="st">&quot;^.gitignore$|^[^_|(.git)]&quot;</span>, <span class="at">all =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <pre><code>## .
 ## ├── .gitignore
 ## ├── 00-METADATA.Rmd
@@ -212,8 +218,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## ├── 04-ReproducibleResearch.Rmd
 ## ├── data
 ## │   ├── CE-LIQ-FLOW-062_Tidydata.xlsx
-## │   ├── GuerrillaAnalytics.png
-## │   └── README.data.Rmd
+## │   └── GuerrillaAnalytics.png
 ## ├── dataRaw
 ## │   ├── CE.LIQ.FLOW.062_Tidydata.xlsx
 ## │   ├── GuerrillaAnalytics.png
@@ -223,6 +228,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## │   └── README.doc.Rmd
 ## ├── LICENSE
 ## ├── PortofolioBookdown.Rproj
+## ├── scripts
+## │   └── WebsiteUpload.R
 ## └── Style.css</code></pre>
 
 </div>
