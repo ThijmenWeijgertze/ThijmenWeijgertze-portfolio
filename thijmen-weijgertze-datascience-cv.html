@@ -189,6 +189,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#planning"><i class="fa fa-check"></i>Planning</a></li>
 <li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#dataset"><i class="fa fa-check"></i>Dataset</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html"><i class="fa fa-check"></i>Rpackage (twPackage)</a>
+<ul>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#introduction-3"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#installation"><i class="fa fa-check"></i>Installation</a></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#function-and-data-explanation"><i class="fa fa-check"></i>Function and data explanation</a></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#function-examples"><i class="fa fa-check"></i>Function examples</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="antimicrobial-resistance-project.html"><a href="antimicrobial-resistance-project.html"><i class="fa fa-check"></i>Antimicrobial resistance project</a>
+<ul>
+<li class="chapter" data-level="" data-path="antimicrobial-resistance-project.html"><a href="antimicrobial-resistance-project.html#introduction-4"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="antimicrobial-resistance-project.html"><a href="antimicrobial-resistance-project.html#principle"><i class="fa fa-check"></i>Principle</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="analyzing-covid-19-data-using-parameters.html"><a href="analyzing-covid-19-data-using-parameters.html"><i class="fa fa-check"></i>Analyzing Covid-19 data using parameters</a>
+<ul>
+<li class="chapter" data-level="" data-path="analyzing-covid-19-data-using-parameters.html"><a href="analyzing-covid-19-data-using-parameters.html#selected-parameters"><i class="fa fa-check"></i>Selected parameters</a></li>
+<li class="chapter" data-level="" data-path="analyzing-covid-19-data-using-parameters.html"><a href="analyzing-covid-19-data-using-parameters.html#inspecting-data"><i class="fa fa-check"></i>Inspecting data</a></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -214,8 +231,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="my-education" class="section level3">
 <h3>My education</h3>
-<div class="reactable html-widget html-fill-item" id="htmlwidget-e572f25b338ab1d03cc4" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e572f25b338ab1d03cc4">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Degree":["Havo (N&T and N&G)","Life Science"],"Year":["2020","3rd year"],"Institution":["Marnix College","HU University of Applied Sciences Utrecht"],"Where":["Ede, Gelderland","Utrecht, Utrecht"]},"columns":[{"id":"Degree","name":"Degree","type":"character"},{"id":"Year","name":"Year","type":"character"},{"id":"Institution","name":"Institution","type":"character"},{"id":"Where","name":"Where","type":"character"}],"dataKey":"5bc4ba73cc9e3fd7d36393d7d9821261"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="thijmen-weijgertze-datascience-cv.html#cb3-1" tabindex="-1"></a><span class="fu">library</span>(reactable)</span>
+<span id="cb3-2"><a href="thijmen-weijgertze-datascience-cv.html#cb3-2" tabindex="-1"></a><span class="fu">library</span>(tibble)</span>
+<span id="cb3-3"><a href="thijmen-weijgertze-datascience-cv.html#cb3-3" tabindex="-1"></a><span class="fu">tibble</span>(<span class="at">Degree=</span><span class="fu">c</span>(<span class="st">&quot;Havo (N&amp;T and N&amp;G)&quot;</span>,<span class="st">&quot;Life Science&quot;</span>), </span>
+<span id="cb3-4"><a href="thijmen-weijgertze-datascience-cv.html#cb3-4" tabindex="-1"></a>       <span class="at">Year=</span><span class="fu">c</span>(<span class="st">&quot;2020&quot;</span>, <span class="st">&quot;3rd year&quot;</span>), </span>
+<span id="cb3-5"><a href="thijmen-weijgertze-datascience-cv.html#cb3-5" tabindex="-1"></a>       <span class="at">Institution=</span><span class="fu">c</span>(<span class="st">&quot;Marnix College&quot;</span>, <span class="st">&quot;HU University of Applied Sciences Utrecht&quot;</span>),</span>
+<span id="cb3-6"><a href="thijmen-weijgertze-datascience-cv.html#cb3-6" tabindex="-1"></a>       <span class="at">Where=</span><span class="fu">c</span>(<span class="st">&quot;Ede, Gelderland&quot;</span>, <span class="st">&quot;Utrecht, Utrecht&quot;</span>)) <span class="sc">%&gt;%</span> <span class="fu">reactable</span>()</span></code></pre></div>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-8af734e0925ef6cef51f" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-8af734e0925ef6cef51f">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Degree":["Havo (N&T and N&G)","Life Science"],"Year":["2020","3rd year"],"Institution":["Marnix College","HU University of Applied Sciences Utrecht"],"Where":["Ede, Gelderland","Utrecht, Utrecht"]},"columns":[{"id":"Degree","name":"Degree","type":"character"},{"id":"Year","name":"Year","type":"character"},{"id":"Institution","name":"Institution","type":"character"},{"id":"Where","name":"Where","type":"character"}],"dataKey":"5bc4ba73cc9e3fd7d36393d7d9821261"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="my-most-relevant-skills-related-to-datascience-alphabetical-order" class="section level3">
 <h3>My most relevant skills related to DataScience (alphabetical order)</h3>

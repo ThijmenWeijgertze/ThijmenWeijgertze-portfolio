@@ -189,6 +189,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#planning"><i class="fa fa-check"></i>Planning</a></li>
 <li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#dataset"><i class="fa fa-check"></i>Dataset</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html"><i class="fa fa-check"></i>Rpackage (twPackage)</a>
+<ul>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#introduction-3"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#installation"><i class="fa fa-check"></i>Installation</a></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#function-and-data-explanation"><i class="fa fa-check"></i>Function and data explanation</a></li>
+<li class="chapter" data-level="" data-path="rpackage-twpackage.html"><a href="rpackage-twpackage.html#function-examples"><i class="fa fa-check"></i>Function examples</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="antimicrobial-resistance-project.html"><a href="antimicrobial-resistance-project.html"><i class="fa fa-check"></i>Antimicrobial resistance project</a>
+<ul>
+<li class="chapter" data-level="" data-path="antimicrobial-resistance-project.html"><a href="antimicrobial-resistance-project.html#introduction-4"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="antimicrobial-resistance-project.html"><a href="antimicrobial-resistance-project.html#principle"><i class="fa fa-check"></i>Principle</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="analyzing-covid-19-data-using-parameters.html"><a href="analyzing-covid-19-data-using-parameters.html"><i class="fa fa-check"></i>Analyzing Covid-19 data using parameters</a>
+<ul>
+<li class="chapter" data-level="" data-path="analyzing-covid-19-data-using-parameters.html"><a href="analyzing-covid-19-data-using-parameters.html#selected-parameters"><i class="fa fa-check"></i>Selected parameters</a></li>
+<li class="chapter" data-level="" data-path="analyzing-covid-19-data-using-parameters.html"><a href="analyzing-covid-19-data-using-parameters.html#inspecting-data"><i class="fa fa-check"></i>Inspecting data</a></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -211,7 +228,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="source-code" class="section level3 unnumbered">
 <h3>Source code</h3>
 <p>Bookdown source code: <a href="https://github.com/ThijmenWeijgertze/PortofolioBookdown">PortofolioBookdown</a></p>
-<p>Website source code: <a href="https://github.com/ThijmenWeijgertze/PortofolioBookdown">ThijmenWeijgertze-portofolio</a></p>
+<p>Website source code: <a href="https://github.com/ThijmenWeijgertze/ThijmenWeijgertze-portfolio">ThijmenWeijgertze-portofolio</a></p>
 <p>Website link: <a href="https://thijmenweijgertze.github.io/ThijmenWeijgertze-portfolio/">thijmenweijgertze.github.io/ThijmenWeijgertze-portfolio/</a></p>
 </div>
 <div id="dependency-packages" class="section level3 unnumbered">
@@ -221,13 +238,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>tidymodels</li>
 <li>bookdown</li>
 <li>reactable</li>
+<li>gt</li>
 <li>fs</li>
 <li>tidyverse</li>
 <li>RColorBrewer</li>
 <li>readxl</li>
+<li>ggfortify</li>
+<li>twPackage (devtools::install_github(“ThijmenWeijgertze/twPackage”, build_vignettes = TRUE))</li>
 </ul>
 </div>
-<div id="directory-roadmap" class="section level3">
+<div id="directory-roadmap" class="section level3 unnumbered">
 <h3>Directory roadmap</h3>
 <p>The structure of this portfolio’s source code is as follows:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="metadata.html#cb1-1" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
@@ -242,29 +262,37 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## ├── 03-CElegans.Rmd
 ## ├── 04-ReproducibleResearch.Rmd
 ## ├── 05-MachineLearning.Rmd
+## ├── 06-Package.Rmd
+## ├── 07-DataScienceProject.Rmd
+## ├── 09-CovidCases.Rmd
+## ├── CleanBook.R
 ## ├── data
 ## │   ├── breast-cancer.data
 ## │   ├── breast-cancer.names
 ## │   ├── CE-LIQ-FLOW-062_Tidydata.xlsx
+## │   ├── CovidData.csv
 ## │   └── GuerrillaAnalytics.png
 ## ├── dataRaw
 ## │   ├── breast-cancer.data
 ## │   ├── breast-cancer.names
 ## │   ├── CE.LIQ.FLOW.062_Tidydata.xlsx
+## │   ├── data.csv
 ## │   ├── GuerrillaAnalytics.png
 ## │   └── README.dataRaw.Rmd
 ## ├── doc
 ## │   ├── github.placeholder
+## │   ├── notes.txt
 ## │   └── README.doc.Rmd
-## ├── header.html
 ## ├── LICENSE
 ## ├── PortofolioBookdown.Rproj
 ## ├── README.md
 ## └── Style.css</code></pre>
 </div>
-<div id="dataraw-data-folder" class="section level3">
+<div id="dataraw-data-folder" class="section level3 unnumbered">
 <h3>dataRaw &amp; data folder</h3>
-<p>The dataRaw folder holds the original data files. These data files are unedited and remain in untouched in the folder as back-up. The data within the data folder are used within the Rmarkdown files and may differ from the original source in dataRaw.</p>
+<p class="justify">
+The dataRaw folder holds the original data files. These data files are unedited and remain in untouched in the folder as back-up. The data within the data folder are used within the Rmarkdown files and may differ from the original source in dataRaw.
+<p>
 <p>The data folder consists of the following files:
 - CE-LIQ-FLOW-062_Tidydata.xlsx: C.elegans data used in the C.elegans plate analysis
 - GuerrillaAnalytics.png: a screenshot of a project’s directory tree to demonstrate the guerrilla analytics principles</p>
