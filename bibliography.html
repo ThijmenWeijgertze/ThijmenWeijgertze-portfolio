@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Guerrilla Analytics | Data Science portfolio Thijmen Weijgertze</title>
+  <title>Bibliography | Data Science portfolio Thijmen Weijgertze</title>
   <meta name="description" content="Data Science portfolio for the “Data Science For Biology” course given by the “HU University of Applied Sciences Utrecht written by Thijmen Weijgertze”" />
   <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Guerrilla Analytics | Data Science portfolio Thijmen Weijgertze" />
+  <meta property="og:title" content="Bibliography | Data Science portfolio Thijmen Weijgertze" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Data Science portfolio for the “Data Science For Biology” course given by the “HU University of Applied Sciences Utrecht written by Thijmen Weijgertze”" />
   <meta name="github-repo" content="ThijmenWeijgertze/PortofolioBookdown" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Guerrilla Analytics | Data Science portfolio Thijmen Weijgertze" />
+  <meta name="twitter:title" content="Bibliography | Data Science portfolio Thijmen Weijgertze" />
   
   <meta name="twitter:description" content="Data Science portfolio for the “Data Science For Biology” course given by the “HU University of Applied Sciences Utrecht written by Thijmen Weijgertze”" />
   
@@ -28,8 +28,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="thijmen-weijgertze-datascience-cv.html"/>
-<link rel="next" href="c.-elegans-plate-experiment.html"/>
+<link rel="prev" href="analyzing-covid-19-data-using-parameters.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -248,64 +248,49 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="guerrilla-analytics" class="section level1">
-<h1>Guerrilla Analytics</h1>
-<div id="example-project" class="section level3 unnumbered">
-<h3>Example Project</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="guerrilla-analytics.html#cb3-1" tabindex="-1"></a><span class="co"># Load example image</span></span>
-<span id="cb3-2"><a href="guerrilla-analytics.html#cb3-2" tabindex="-1"></a><span class="fu">library</span>(here)</span>
-<span id="cb3-3"><a href="guerrilla-analytics.html#cb3-3" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="guerrilla-analytics.html#cb3-4" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(here<span class="sc">::</span><span class="fu">here</span>(</span>
-<span id="cb3-5"><a href="guerrilla-analytics.html#cb3-5" tabindex="-1"></a>  <span class="st">&quot;data&quot;</span>,</span>
-<span id="cb3-6"><a href="guerrilla-analytics.html#cb3-6" tabindex="-1"></a>  <span class="st">&quot;GuerrillaAnalytics.png&quot;</span></span>
-<span id="cb3-7"><a href="guerrilla-analytics.html#cb3-7" tabindex="-1"></a>))</span></code></pre></div>
-<p><img src="data/GuerrillaAnalytics.png" width="231" /></p>
-</div>
-<div id="root-of-this-bookdown-project" class="section level3 unnumbered">
-<h3>Root Of This Bookdown Project</h3>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="guerrilla-analytics.html#cb4-1" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
-<span id="cb4-2"><a href="guerrilla-analytics.html#cb4-2" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-3"><a href="guerrilla-analytics.html#cb4-3" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="guerrilla-analytics.html#cb4-4" tabindex="-1"></a><span class="fu">dir_tree</span>(<span class="st">&quot;.&quot;</span>, <span class="at">recurse =</span> <span class="cn">TRUE</span>, <span class="at">regexp =</span> <span class="st">&quot;^.gitignore$|^[^_|(.git)]&quot;</span>, <span class="at">all =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
-<pre><code>## .
-## ├── .gitignore
-## ├── 00-METADATA.Rmd
-## ├── 01_CV.Rmd
-## ├── 02-GuerrillaAnalytics.Rmd
-## ├── 03-CElegans.Rmd
-## ├── 04-ReproducibleResearch.Rmd
-## ├── 05-MachineLearning.Rmd
-## ├── 06-Package.Rmd
-## ├── 07-DataScienceProject.Rmd
-## ├── 08-CovidCases.Rmd
-## ├── 20-Bibliography.Rmd
-## ├── css
-## │   └── style.css
-## ├── data
-## │   ├── breast-cancer.data
-## │   ├── breast-cancer.names
-## │   ├── CE-LIQ-FLOW-062_Tidydata.xlsx
-## │   ├── CovidData.csv
-## │   └── GuerrillaAnalytics.png
-## ├── dataRaw
-## │   ├── breast-cancer.data
-## │   ├── breast-cancer.names
-## │   ├── CE.LIQ.FLOW.062_Tidydata.xlsx
-## │   ├── data.csv
-## │   ├── GuerrillaAnalytics.png
-## │   └── README.dataRaw.Rmd
-## ├── doc
-## │   ├── github.placeholder
-## │   ├── notes.txt
-## │   └── README.doc.Rmd
-## ├── LICENSE
-## ├── PortofolioBookdown.Rproj
-## ├── README.md
-## ├── References.bib
-## └── scripts
-##     ├── CleanBook.R
-##     └── UpdateBib(DoesntWork).R</code></pre>
+<div id="bibliography" class="section level1">
+<h1>Bibliography</h1>
 
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
+<div class="csl-entry">
+alex. 2022. <span>“Answer to "<span>Simpler</span> Population Pyramid in Ggplot2".”</span> <em>Stack Overflow</em>.
+</div>
+<div class="csl-entry">
+<span>“Babraham <span>Bioinformatics</span> - <span>Trim Galore</span>!”</span> n.d. https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/. Accessed May 12, 2024.
+</div>
+<div class="csl-entry">
+Eeeeed. 2019. <span>“Answer to "<span>Simpler</span> Population Pyramid in Ggplot2".”</span> <em>Stack Overflow</em>.
+</div>
+<div class="csl-entry">
+Elferts, Didzis. 2013. <span>“Answer to "<span>Simpler</span> Population Pyramid in Ggplot2".”</span> <em>Stack Overflow</em>.
+</div>
+<div class="csl-entry">
+Gestel, Bas van, Marc Teunis, Alyanne de Haan, and Marc Teunis. n.d. <em>Data <span>Science Workflows Course</span></em>.
+</div>
+<div class="csl-entry">
+guyabel. 2016. <span>“Answer to "<span>Simpler</span> Population Pyramid in Ggplot2".”</span> <em>Stack Overflow</em>.
+</div>
+<div class="csl-entry">
+Handley Wickham, and Jennifer Bryan. 2023. <em>R <span>Packages</span>, 2nd <span>Edition</span> [<span>Book</span>]</em>. 2nd ed.
+</div>
+<div class="csl-entry">
+Oropeza-Valdez, Juan José, Cristian Padron-Manrique, Aarón Vázquez-Jiménez, Xavier Soberon, and Osbaldo Resendis-Antonio. 2024. <span>“Exploring <span>Metabolic Anomalies</span> in <span>COVID-19</span> and <span>Post-COVID-19</span>: <span>A Machine Learning Approach</span> with <span>Explainable Artificial Intelligence</span>.”</span> bioRxiv. <a href="https://doi.org/10.1101/2024.04.15.589583">https://doi.org/10.1101/2024.04.15.589583</a>.
+</div>
+<div class="csl-entry">
+Paganini, Julian A., Jesse J. Kerkvliet, Lisa Vader, Nienke L. Plantinga, Rodrigo Meneses, Jukka Corander, Rob J. L. Willems, Sergio Arredondo-Alonso, and Anita C. Schürch. 2024. <span>“<span>PlasmidEC</span> and Gplas2: An Optimized Short-Read Approach to Predict and Reconstruct Antibiotic Resistance Plasmids in <span>Escherichia</span> Coli.”</span> <em>Microbial Genomics</em> 10 (2): 001193. <a href="https://doi.org/10.1099/mgen.0.001193">https://doi.org/10.1099/mgen.0.001193</a>.
+</div>
+<div class="csl-entry">
+Seemann, Torsten. 2024. <span>“Tseemann/Abricate.”</span>
+</div>
+<div class="csl-entry">
+<span>“Top 50 Ggplot2 <span>Visualizations</span> - <span>The Master List</span> (<span>With Full R Code</span>).”</span> n.d. https://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html. Accessed May 12, 2024.
+</div>
+<div class="csl-entry">
+Wick, Ryan R., Louise M. Judd, Claire L. Gorrie, and Kathryn E. Holt. 2017. <span>“Unicycler: <span>Resolving</span> Bacterial Genome Assemblies from Short and Long Sequencing Reads.”</span> <em>PLoS Computational Biology</em> 13 (6): e1005595. <a href="https://doi.org/10.1371/journal.pcbi.1005595">https://doi.org/10.1371/journal.pcbi.1005595</a>.
+</div>
+<div class="csl-entry">
+Xie, Yihui. n.d. <em>Bookdown: <span>Authoring Books</span> and <span>Technical Documents</span> with <span>R Markdown</span></em>. Accessed May 12, 2024.
+</div>
 </div>
 </div>
             </section>
@@ -313,8 +298,8 @@ div.csl-indent {
           </div>
         </div>
       </div>
-<a href="thijmen-weijgertze-datascience-cv.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="c.-elegans-plate-experiment.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="analyzing-covid-19-data-using-parameters.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
